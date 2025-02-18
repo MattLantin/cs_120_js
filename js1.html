@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Problem 1</title>
+</head>
+<body>
+    <script>
+        let firstName = prompt("Enter your first name:");
+        let lastName = prompt("Enter your last name:");
+        alert("Your name is " + firstName + " " + lastName);
+
+        let numChildren = parseInt(prompt("How many children do you have?"));
+        let message = numChildren === 0 ? "You have no children" : `You have ${numChildren} child${numChildren > 1 ? "ren" : ""}`;
+        document.write(message);
+    </script>
+</body>
+</html>

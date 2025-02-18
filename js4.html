@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Problem 4</title>
+</head>
+<body>
+    <script>
+        let start = parseInt(prompt("Enter start of range:"));
+        let end = parseInt(prompt("Enter end of range:"));
+        let sum = 0;
+        let output = "";
+        for (let i = start; i <= end; i++) {
+            sum += i;
+            if (i % 2 !== 0) {
+                output += i + " ";
+            }
+        }
+        document.write("Odd numbers: " + output + "<br>");
+        document.write("Sum of numbers: " + sum);
+    </script>
+</body>
+</html>
